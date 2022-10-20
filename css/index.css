@@ -1,0 +1,81 @@
+.swiper {
+    width: 100%;
+    height: 627px;
+}
+.swiper-slide {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.swiper-slide__top, .swiper-slide__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.swiper-slide__author {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.swiper-slide__name {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.swiper-slide__ganre {
+    font-size: 26px;
+}
+.swiper-slide__age {
+    font-size: 60px;
+}
+.swiper-slide__people li {
+    font-size: 22px;
+}
+.swiper-slide__date {
+    font-size: 72px;
+}
+.swiper-button-prev, .swiper-button-next {
+    color: white;
+    transition: color .1s ease-in-out;
+}
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    color: var(--main);
+    
+}
+.swiper-button-prev {
+    left: 50px;
+}
+.swiper-button-next {
+    right: 50px;
+}
+.swiper-pagination-bullet {
+    background: white;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background: var(--main);
+}
+.news__block {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 392px);
+    gap: 10px;
+}
+.news__item {
+    padding: 30px;
+}
+.news__media {
+    width: 100%;
+    height: 247px;
+    margin-bottom: 20px;
+}
+.news__pict {
+    border-radius: 10px;
+}
+.news__text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.news__button {
+    width: 100%;
+    padding: 16px 0;
+    font-size: 24px;
+}

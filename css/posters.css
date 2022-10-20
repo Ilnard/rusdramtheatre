@@ -1,0 +1,61 @@
+.posters__block {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    gap: 50px;
+    justify-content: center;
+}
+.poster {
+    position: relative;
+}
+.poster__media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    height: 340px;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+}
+.poster__age, .poster__date {
+    font-size: 40px;
+}
+.poster__text {
+    padding: 20px;
+    margin-top: 10px;
+}
+.poster__title {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.poster__ganre {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.poster__people {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.poster__people li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.poster__people li:last-child {
+    margin-bottom: 0;
+}
+.poster__actions {
+    display: flex;
+    justify-content: space-between;
+}
+.poster__btn {
+    height: 60px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.poster__more {
+    width: 200px;
+}
+.poster__buy {
+    width: 240px;
+    background: var(--main);
+}
